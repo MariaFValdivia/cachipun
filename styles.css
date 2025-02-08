@@ -68,35 +68,6 @@ button {
     font-size: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    img {
-        width: 80px;
-        height: 80px;
-    }
-
-    #jugar {
-        height: 60px;
-        font-size: 0.9rem;
-    }
-
-    button {
-        height: 80px;
-        font-size: 0.9rem;
-    }
-
-    .tu, .pc {
-        flex-direction: column;
-    }
-}
-
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 2rem;
@@ -119,5 +90,9 @@ button {
     button {
         height: 60px;
         font-size: 0.8rem;
+    }
+
+    .tu, .pc {
+        flex-direction: column;
     }
 }
