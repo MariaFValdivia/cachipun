@@ -15,7 +15,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 95%;
     max-width: 800px;
     margin: 20px auto;
 }
@@ -64,11 +64,36 @@ button {
     border-color: rgb(255, 0, 179);
     border-width: 5px;
     background-image: linear-gradient(to top, rgb(228, 196, 220), rgb(255, 255, 255));
-    cursor: pointer;
     font-size: 1rem;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #jugar {
+        height: 80px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        height: 80px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
     h1 {
         font-size: 2rem;
     }
@@ -83,7 +108,7 @@ button {
     }
 
     #jugar {
-        height: 50px;
+        height: 60px;
         font-size: 0.8rem;
     }
 
